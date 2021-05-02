@@ -12,7 +12,7 @@
       tags: ['Frontend', 'Backend']
     }, {
       logo: './assets/img/insure.png',
-      company: 'insure',
+      company: 'Insure',
       job: 'Junior Frontend Developer',
       tags: ['HTML', 'CSS', 'JS']
     }, 

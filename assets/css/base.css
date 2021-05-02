@@ -17,6 +17,10 @@
   --blue-light-primary: #416883;
   --blue-light-secondary: #5e8ca7;
 }
+::selection {
+  background-color: var(--green-light);
+  color: var(--blue-dark);
+}
 body {
   background: var(--bg-gradient);
   font-size: 16px;

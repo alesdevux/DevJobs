@@ -123,8 +123,6 @@
 .btn-primary:hover {
   background-color: var(--green-primary);
   color: var(--blue-dark);
-  /* min-width: 7.5rem;
-  padding: 1rem; */
 }
 .btn-primary:hover {
   -webkit-animation:jump 1s ease 0s 1 normal;
@@ -149,4 +147,26 @@
   60%{ transform:translateY(-0.25rem); }
   80%{ transform:translateY(0); }
   100%{ transform:translateY(0); }
+}
+
+/* Footer */
+footer .container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem auto;
+}
+footer p {
+  color: var(--white-text);
+  text-transform: uppercase;
+}
+footer .media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+footer .media svg {
+  cursor: pointer;
 }
